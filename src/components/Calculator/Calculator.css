@@ -1,0 +1,28 @@
+.calculator {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
+  max-width: 250px;
+  margin: auto;
+  padding: 10px;
+  border: 2px solid whitesmoke;
+  border-radius: 10px;
+}
+
+.calculator input {
+  grid-column: span 4;
+  padding: 10px;
+}
+
+.calculator button {
+  grid-column: span 1;
+  padding: 10px;
+  font-size: 16px;
+}
+.calculator > p {
+  grid-column: span 4;
+}
+.history {
+  list-style: none;
+  grid-column: span 4;
+}
